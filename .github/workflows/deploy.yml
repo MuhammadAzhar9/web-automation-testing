@@ -22,8 +22,8 @@ jobs:
         java-version: '21'         # Ganti sesuai versi Java kamu
         distribution: 'temurin'
 
-    - name: Build Maven site
-      run: mvn clean site
+    - name: Build Maven test
+      run: mvn clean test
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
