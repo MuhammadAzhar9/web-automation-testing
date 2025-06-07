@@ -1,5 +1,5 @@
 # Ignore allure-results only at the root level
-.allure/** 
+.allure
 
 # Ignore target directory
 target/*

@@ -1,0 +1,56 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "features",
+    "children" : [ {
+      "name" : "login_feature.User Authentication",
+      "children" : [ {
+        "name" : "TC-1.1 Check login is successful with valid credentials as role \"bendahara\"",
+        "uid" : "345baaf6cbf96301",
+        "parentUid" : "85479c0be87b034d67dc90622534cda5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1749307089077,
+          "stop" : 1749307165828,
+          "duration" : 76751
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-1.2 Check login is un-successful with invalid credentials. Its is username not registered",
+        "uid" : "9b754124e8d5ef95",
+        "parentUid" : "85479c0be87b034d67dc90622534cda5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1749307166172,
+          "stop" : 1749307170281,
+          "duration" : 4109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "login_feature.User Authentication"
+    }, {
+      "name" : "logout_feature.User Logout",
+      "children" : [ {
+        "name" : "TC-LOGOUT-01 Successful logout with confirmation",
+        "uid" : "85f12a86ed1b9e64",
+        "parentUid" : "b3d7084c88d55b4c4951a8e94e502fa3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1749307170299,
+          "stop" : 1749307195654,
+          "duration" : 25355
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "logout_feature.User Logout"
+    } ],
+    "uid" : "05c057f933be9add362d425b7a690409"
+  } ]
+}

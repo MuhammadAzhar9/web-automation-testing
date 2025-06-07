@@ -1,0 +1,10 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Jun 07 21:39:26 WIB 2025","Sat Jun 07 21:39:30 WIB 2025","4109","","User Authentication","","TC-1.2 Check login is un-successful with invalid credentials. Its is username not registered","","TC-1.2 Check login is un-successful with invalid credentials. Its is username not registered","  As a user
+  I want to login to the application
+  So that I can access protected features"
+"passed","Sat Jun 07 21:38:09 WIB 2025","Sat Jun 07 21:39:25 WIB 2025","76751","","User Authentication","","TC-1.1 Check login is successful with valid credentials as role ""bendahara""","","TC-1.1 Check login is successful with valid credentials as role ""bendahara""","  As a user
+  I want to login to the application
+  So that I can access protected features"
+"passed","Sat Jun 07 21:39:30 WIB 2025","Sat Jun 07 21:39:55 WIB 2025","25355","","User Logout","","TC-LOGOUT-01 Successful logout with confirmation","","TC-LOGOUT-01 Successful logout with confirmation","  As a logged in user
+  I want to logout from the application
+  So that my session is terminated and account is secured"
