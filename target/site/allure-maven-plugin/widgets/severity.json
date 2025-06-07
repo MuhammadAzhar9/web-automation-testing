@@ -1,15 +1,5 @@
 [ {
-  "uid" : "345baaf6cbf96301",
-  "name" : "TC-1.1 Check login is successful with valid credentials as role \"bendahara\"",
-  "time" : {
-    "start" : 1749307089077,
-    "stop" : 1749307165828,
-    "duration" : 76751
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "85f12a86ed1b9e64",
+  "uid" : "78ca73d5294f876d",
   "name" : "TC-LOGOUT-01 Successful logout with confirmation",
   "time" : {
     "start" : 1749307170299,
@@ -19,7 +9,17 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9b754124e8d5ef95",
+  "uid" : "5786db0df1122ad7",
+  "name" : "TC-1.1 Check login is successful with valid credentials as role \"bendahara\"",
+  "time" : {
+    "start" : 1749307089077,
+    "stop" : 1749307165828,
+    "duration" : 76751
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f1485ab82aebed5",
   "name" : "TC-1.2 Check login is un-successful with invalid credentials. Its is username not registered",
   "time" : {
     "start" : 1749307166172,

@@ -1,12 +1,12 @@
 {
-  "uid" : "9b754124e8d5ef95",
-  "name" : "TC-1.2 Check login is un-successful with invalid credentials. Its is username not registered",
-  "fullName" : "features/login.feature:27",
-  "historyId" : "98c383efc0ea829a2a9a478aa79b9da5",
+  "uid" : "5786db0df1122ad7",
+  "name" : "TC-1.1 Check login is successful with valid credentials as role \"bendahara\"",
+  "fullName" : "features/login.feature:12",
+  "historyId" : "5fc3b64b01a1158cce18d71f0475a376",
   "time" : {
-    "start" : 1749307166172,
-    "stop" : 1749307170281,
-    "duration" : 4109
+    "start" : 1749307089077,
+    "stop" : 1749307165828,
+    "duration" : 76751
   },
   "description" : "  As a user\n  I want to login to the application\n  So that I can access protected features",
   "descriptionHtml" : "<p>As a user\nI want to login to the application\nSo that I can access protected features</p>\n",
@@ -16,18 +16,18 @@
   "beforeStages" : [ {
     "name" : "org.a6.stepdefs.SharedDrivers.setup()",
     "time" : {
-      "start" : 1749307166173,
-      "stop" : 1749307167429,
-      "duration" : 1256
+      "start" : 1749307089079,
+      "stop" : 1749307091485,
+      "duration" : 2406
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "hasContent" : false,
-    "stepsCount" : 0
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "testStage" : {
     "description" : "  As a user\n  I want to login to the application\n  So that I can access protected features",
@@ -35,123 +35,144 @@
     "steps" : [ {
       "name" : "Given  User has opened the browser",
       "time" : {
-        "start" : 1749307167430,
-        "stop" : 1749307167433,
-        "duration" : 3
+        "start" : 1749307091495,
+        "stop" : 1749307091554,
+        "duration" : 59
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "hasContent" : false,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "And  User has navigated on the login page Education Fund Payment Management System for Zaidan Educare School app",
       "time" : {
-        "start" : 1749307167442,
-        "stop" : 1749307169285,
-        "duration" : 1843
+        "start" : 1749307091555,
+        "stop" : 1749307093375,
+        "duration" : 1820
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "hasContent" : false,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
-      "name" : "When  User enters username \"indra\" and password \"admin123\"",
+      "name" : "When  User enters username \"bendahara\" and password \"admin123\"",
       "time" : {
-        "start" : 1749307169286,
-        "stop" : 1749307169703,
-        "duration" : 417
+        "start" : 1749307093375,
+        "stop" : 1749307093884,
+        "duration" : 509
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "hasContent" : false,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "And  User clicks login button",
       "time" : {
-        "start" : 1749307169703,
-        "stop" : 1749307169898,
-        "duration" : 195
+        "start" : 1749307093884,
+        "stop" : 1749307094086,
+        "duration" : 202
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "hasContent" : false,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
-      "name" : "Then  I should remain on the login page",
+      "name" : "Then  I should be logged in successfully",
       "time" : {
-        "start" : 1749307169898,
-        "stop" : 1749307169913,
-        "duration" : 15
+        "start" : 1749307094086,
+        "stop" : 1749307094150,
+        "duration" : 64
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "hasContent" : false,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
-      "name" : "And  I should see error message \"Incorrect username or password, please try again!\"",
+      "name" : "And  System is navigated user to the dashboard page and show page tittle \"Dasbor - Bendahara\"",
       "time" : {
-        "start" : 1749307169914,
-        "stop" : 1749307170096,
-        "duration" : 182
+        "start" : 1749307094150,
+        "stop" : 1749307094556,
+        "duration" : 406
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "hasContent" : false,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  User should be able to see navigation bar for bendahara",
+      "time" : {
+        "start" : 1749307094557,
+        "stop" : 1749307165195,
+        "duration" : 70638
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4142f34099320c04",
+        "name" : "Data table",
+        "source" : "4142f34099320c04.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 132
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "hasContent" : true,
-    "stepsCount" : 6
+    "stepsCount" : 7,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ {
     "name" : "org.a6.stepdefs.SharedDrivers.tearDown(io.cucumber.java.Scenario)",
     "time" : {
-      "start" : 1749307170096,
-      "stop" : 1749307170281,
-      "duration" : 185
+      "start" : 1749307165197,
+      "stop" : 1749307165824,
+      "duration" : 627
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "hasContent" : false,
-    "stepsCount" : 0
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
     "name" : "tag",
     "value" : "login"
   }, {
     "name" : "tag",
-    "value" : "Negative"
+    "value" : "Positive"
   }, {
     "name" : "host",
     "value" : "MuhammadAzhar9"
@@ -163,13 +184,13 @@
     "value" : "User Authentication"
   }, {
     "name" : "story",
-    "value" : "TC-1.2 Check login is un-successful with invalid credentials. Its is username not registered"
+    "value" : "TC-1.1 Check login is successful with valid credentials as role \"bendahara\""
   }, {
     "name" : "suite",
     "value" : "User Authentication"
   }, {
     "name" : "testClass",
-    "value" : "TC-1.2 Check login is un-successful with invalid credentials. Its is username not registered"
+    "value" : "TC-1.1 Check login is successful with valid credentials as role \"bendahara\""
   }, {
     "name" : "framework",
     "value" : "cucumber4jvm"
@@ -194,8 +215,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "Negative", "login" ]
+    "tags" : [ "Positive", "login" ]
   },
-  "source" : "9b754124e8d5ef95.json",
+  "source" : "5786db0df1122ad7.json",
   "parameterValues" : [ ]
 }

@@ -7,7 +7,7 @@
       "name" : "TC-1.1 Check login is successful with valid credentials as role \"bendahara\"",
       "children" : [ {
         "name" : "TC-1.1 Check login is successful with valid credentials as role \"bendahara\"",
-        "uid" : "345baaf6cbf96301",
+        "uid" : "5786db0df1122ad7",
         "parentUid" : "d5b84bd0df4c35d2be11d640f14edb45",
         "status" : "passed",
         "time" : {
@@ -24,7 +24,7 @@
       "name" : "TC-1.2 Check login is un-successful with invalid credentials. Its is username not registered",
       "children" : [ {
         "name" : "TC-1.2 Check login is un-successful with invalid credentials. Its is username not registered",
-        "uid" : "9b754124e8d5ef95",
+        "uid" : "9f1485ab82aebed5",
         "parentUid" : "d81c5f9e696d293dd246cb92d8fa46b9",
         "status" : "passed",
         "time" : {
@@ -45,7 +45,7 @@
       "name" : "TC-LOGOUT-01 Successful logout with confirmation",
       "children" : [ {
         "name" : "TC-LOGOUT-01 Successful logout with confirmation",
-        "uid" : "85f12a86ed1b9e64",
+        "uid" : "78ca73d5294f876d",
         "parentUid" : "7d5704086eb4f0903b3052308a5701d3",
         "status" : "passed",
         "time" : {
