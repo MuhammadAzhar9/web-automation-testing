@@ -7,7 +7,11 @@ target/*
 # But don't ignore target/allure-results directory
 !target/allure-results/
 !target/allure-results/**
-!target/site/allure-maven-plugin
+
+!target/site/**
+!target/site/
+
+!target/site/allure-maven-plugin/
 !target/site/allure-maven-plugin/** 
 
 !.mvn/wrapper/maven-wrapper.jar

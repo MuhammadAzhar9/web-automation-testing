@@ -1,0 +1,64 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "User Authentication",
+    "children" : [ {
+      "name" : "TC-1.1 Check login is successful with valid credentials as role \"bendahara\"",
+      "children" : [ {
+        "name" : "TC-1.1 Check login is successful with valid credentials as role \"bendahara\"",
+        "uid" : "e4729f23d6fb0f79",
+        "parentUid" : "d5b84bd0df4c35d2be11d640f14edb45",
+        "status" : "passed",
+        "time" : {
+          "start" : 1749304808747,
+          "stop" : 1749304885343,
+          "duration" : 76596
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d5b84bd0df4c35d2be11d640f14edb45"
+    }, {
+      "name" : "TC-1.2 Check login is un-successful with invalid credentials. Its is username not registered",
+      "children" : [ {
+        "name" : "TC-1.2 Check login is un-successful with invalid credentials. Its is username not registered",
+        "uid" : "4e8388be1d52090f",
+        "parentUid" : "d81c5f9e696d293dd246cb92d8fa46b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1749304885642,
+          "stop" : 1749304890165,
+          "duration" : 4523
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d81c5f9e696d293dd246cb92d8fa46b9"
+    } ],
+    "uid" : "21c012e2605cbc23318eb9c37e945947"
+  }, {
+    "name" : "User Logout",
+    "children" : [ {
+      "name" : "TC-LOGOUT-01 Successful logout with confirmation",
+      "children" : [ {
+        "name" : "TC-LOGOUT-01 Successful logout with confirmation",
+        "uid" : "7f6b3546599c956e",
+        "parentUid" : "7d5704086eb4f0903b3052308a5701d3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1749304890185,
+          "stop" : 1749304955015,
+          "duration" : 64830
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7d5704086eb4f0903b3052308a5701d3"
+    } ],
+    "uid" : "25e33ed8603a01d0d1327583ec7931a0"
+  } ]
+}
